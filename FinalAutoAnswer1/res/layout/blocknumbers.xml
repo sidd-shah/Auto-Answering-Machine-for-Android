@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:background="#FFF0F5">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.81" >
+
+            <AutoCompleteTextView
+                android:id="@+id/txtPhoneNo"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionDone"
+                android:paddingTop="15dp" />
+
+            <Button
+                android:id="@+id/addbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txtPhoneNo"
+                android:text="Add" />
+
+            <Button
+                android:id="@+id/viewedit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/addbutton"
+                android:text="View and edit list of blocked numbers" />
+
+        </RelativeLayout>
+
+    </LinearLayout>

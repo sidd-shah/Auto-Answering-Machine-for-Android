@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/phone_receiver"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Welcome to VoiceMail!"
+android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="69dp"
+        android:text="select which messages to view" />
+
+    <Button
+        android:id="@+id/mainaddbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner1"
+        android:text="Manage Blocked Contacts" />
+
+    <CheckBox
+        android:id="@+id/blockedcheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/mainaddbutton"
+        android:layout_marginTop="22dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Enable Service and answer only blocked calls"
+android:textColor="@android:color/black" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/blockedcheckBox"
+        android:layout_marginTop="21dp"
+        android:checked="true"
+        android:clickable="true"
+        android:text="Enable Service and Auto Answer all calls"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
+
+

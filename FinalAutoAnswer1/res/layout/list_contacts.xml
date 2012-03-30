@@ -1,0 +1,15 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+android:background="#FFF0F5" >
+        
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_weight="0.94"
+            android:text="TextView" />
+
+    </LinearLayout>
+
